@@ -7,6 +7,6 @@
   </head>
   <body>
     <h1>Today</h1>
-    <p>The date is <%= Date.strftime("%B %d, %Y") %></p>
+    <p>The date is <%=date.to_formatted_s(:long)%></p>
   </body>
 </html>
